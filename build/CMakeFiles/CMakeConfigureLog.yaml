@@ -1,0 +1,1640 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "D:/share/cmake-4.2/Modules/"
+    found: "D:/share/cmake-4.2/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\bin"
+        - "D:\\Anaconda\\condabin"
+        - "c:\\Users\\lyx\\.trae-cn\\extensions\\vadimcn.vscode-lldb-1.12.2\\bin"
+        - "D:\\cuda12.6\\bin"
+        - "D:\\cuda12.6\\libnvvp"
+        - "C:\\Anaconda"
+        - "C:\\Anaconda\\Scripts"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "C:\\Users\\lyx\\Desktop\\Anaconda"
+        - "C:\\Users\\lyx\\Desktop\\Anaconda\\Scripts"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Windows\\system32"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.1.1"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "D:\\Git\\cmd"
+        - "D:\\bin"
+        - "C:\\Users\\lyx\\AppData\\Local\\Temp\\c8754357-bb7c-4e6e-8b67-b2d7521cbafb_mingw64.7z.afb\\x86_64-8.1.0-release-posix-seh-rt_v6-rev0.7z\\mingw64\\bin"
+        - "d:\\Trae CN\\bin"
+        - "D:\\python314\\Scripts"
+        - "D:\\python314"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Scripts"
+        - "C:\\Users\\lyx\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\cursor\\resources\\app\\bin"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\lyx\\AppData\\Local\\Temp\\3ef0c92c-3156-44ca-84c6-d0544ceb17e1_node-v24.18.0-win-x64 (2).zip.7e1\\node-v24.18.0-win-x64.zip"
+        - "."
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.23+b0019275e
+      鐢熸垚鍚姩鏃堕棿涓?2026/7/9 17:06:27銆?
+      
+      鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\c_project\\graph_experiment\\build\\CMakeFiles\\4.2.0\\CompilerIdC\\CompilerIdC.vcxproj鈥?榛樿鐩爣)銆?
+      PrepareForBuild:
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\鈥濄€?
+        宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\CompilerIdC.tlog\\鈥濄€?
+      InitializeBuildStatus:
+        姝ｅ湪鍒涘缓鈥淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\c_project\\graph_experiment\\build\\CMakeFiles\\4.2.0\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        姝ｅ湪鍒犻櫎鏂囦欢鈥淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+      宸插畬鎴愮敓鎴愰」鐩€淒:\\c_project\\graph_experiment\\build\\CMakeFiles\\4.2.0\\CompilerIdC\\CompilerIdC.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+      
+      宸叉垚鍔熺敓鎴愩€?
+          0 涓鍛?
+          0 涓敊璇?
+      
+      宸茬敤鏃堕棿 00:00:01.33
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/c_project/graph_experiment/build/CMakeFiles/4.2.0/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "D:/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "D:/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "D:/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "D:/Anaconda/"
+      - "D:/Anaconda/Library/mingw-w64/bin/"
+      - "D:/Anaconda/Library/usr/bin/"
+      - "D:/Anaconda/Library/bin/"
+      - "D:/Anaconda/Scripts/"
+      - "D:/Anaconda/bin/"
+      - "D:/Anaconda/condabin/"
+      - "C:/Users/lyx/.trae-cn/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
+      - "D:/cuda12.6/bin/"
+      - "D:/cuda12.6/libnvvp/"
+      - "C:/Anaconda/"
+      - "C:/Anaconda/Scripts/"
+      - "C:/Users/lyx/Desktop/Anaconda/"
+      - "C:/Users/lyx/Desktop/Anaconda/Scripts/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.1.1/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "D:/Git/cmd/"
+      - "D:/bin/"
+      - "C:/Users/lyx/AppData/Local/Temp/c8754357-bb7c-4e6e-8b67-b2d7521cbafb_mingw64.7z.afb/x86_64-8.1.0-release-posix-seh-rt_v6-rev0.7z/mingw64/bin/"
+      - "D:/Trae CN/bin/"
+      - "D:/python314/Scripts/"
+      - "D:/python314/"
+      - "C:/Users/lyx/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/cursor/resources/app/bin/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Users/lyx/AppData/Local/Temp/3ef0c92c-3156-44ca-84c6-d0544ceb17e1_node-v24.18.0-win-x64 (2).zip.7e1/node-v24.18.0-win-x64.zip/"
+      - "D:/c_project/graph_experiment/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\bin"
+        - "D:\\Anaconda\\condabin"
+        - "c:\\Users\\lyx\\.trae-cn\\extensions\\vadimcn.vscode-lldb-1.12.2\\bin"
+        - "D:\\cuda12.6\\bin"
+        - "D:\\cuda12.6\\libnvvp"
+        - "C:\\Anaconda"
+        - "C:\\Anaconda\\Scripts"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "C:\\Users\\lyx\\Desktop\\Anaconda"
+        - "C:\\Users\\lyx\\Desktop\\Anaconda\\Scripts"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Windows\\system32"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.1.1"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "D:\\Git\\cmd"
+        - "D:\\bin"
+        - "C:\\Users\\lyx\\AppData\\Local\\Temp\\c8754357-bb7c-4e6e-8b67-b2d7521cbafb_mingw64.7z.afb\\x86_64-8.1.0-release-posix-seh-rt_v6-rev0.7z\\mingw64\\bin"
+        - "d:\\Trae CN\\bin"
+        - "D:\\python314\\Scripts"
+        - "D:\\python314"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Scripts"
+        - "C:\\Users\\lyx\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\cursor\\resources\\app\\bin"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\lyx\\AppData\\Local\\Temp\\3ef0c92c-3156-44ca-84c6-d0544ceb17e1_node-v24.18.0-win-x64 (2).zip.7e1\\node-v24.18.0-win-x64.zip"
+        - "."
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "D:/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "D:/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "D:/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "D:/Anaconda/"
+      - "D:/Anaconda/Library/mingw-w64/bin/"
+      - "D:/Anaconda/Library/usr/bin/"
+      - "D:/Anaconda/Library/bin/"
+      - "D:/Anaconda/Scripts/"
+      - "D:/Anaconda/bin/"
+      - "D:/Anaconda/condabin/"
+      - "C:/Users/lyx/.trae-cn/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
+      - "D:/cuda12.6/bin/"
+      - "D:/cuda12.6/libnvvp/"
+      - "C:/Anaconda/"
+      - "C:/Anaconda/Scripts/"
+      - "C:/Users/lyx/Desktop/Anaconda/"
+      - "C:/Users/lyx/Desktop/Anaconda/Scripts/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.1.1/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "D:/Git/cmd/"
+      - "D:/bin/"
+      - "C:/Users/lyx/AppData/Local/Temp/c8754357-bb7c-4e6e-8b67-b2d7521cbafb_mingw64.7z.afb/x86_64-8.1.0-release-posix-seh-rt_v6-rev0.7z/mingw64/bin/"
+      - "D:/Trae CN/bin/"
+      - "D:/python314/Scripts/"
+      - "D:/python314/"
+      - "C:/Users/lyx/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/cursor/resources/app/bin/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Users/lyx/AppData/Local/Temp/3ef0c92c-3156-44ca-84c6-d0544ceb17e1_node-v24.18.0-win-x64 (2).zip.7e1/node-v24.18.0-win-x64.zip/"
+      - "D:/c_project/graph_experiment/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link"
+      - "D:/Anaconda/lld-link.com"
+      - "D:/Anaconda/lld-link.exe"
+      - "D:/Anaconda/lld-link"
+      - "D:/Anaconda/Library/mingw-w64/bin/lld-link.com"
+      - "D:/Anaconda/Library/mingw-w64/bin/lld-link.exe"
+      - "D:/Anaconda/Library/mingw-w64/bin/lld-link"
+      - "D:/Anaconda/Library/usr/bin/lld-link.com"
+      - "D:/Anaconda/Library/usr/bin/lld-link.exe"
+      - "D:/Anaconda/Library/usr/bin/lld-link"
+      - "D:/Anaconda/Library/bin/lld-link.com"
+      - "D:/Anaconda/Library/bin/lld-link.exe"
+      - "D:/Anaconda/Library/bin/lld-link"
+      - "D:/Anaconda/Scripts/lld-link.com"
+      - "D:/Anaconda/Scripts/lld-link.exe"
+      - "D:/Anaconda/Scripts/lld-link"
+      - "D:/Anaconda/bin/lld-link.com"
+      - "D:/Anaconda/bin/lld-link.exe"
+      - "D:/Anaconda/bin/lld-link"
+      - "D:/Anaconda/condabin/lld-link.com"
+      - "D:/Anaconda/condabin/lld-link.exe"
+      - "D:/Anaconda/condabin/lld-link"
+      - "C:/Users/lyx/.trae-cn/extensions/vadimcn.vscode-lldb-1.12.2/bin/lld-link.com"
+      - "C:/Users/lyx/.trae-cn/extensions/vadimcn.vscode-lldb-1.12.2/bin/lld-link.exe"
+      - "C:/Users/lyx/.trae-cn/extensions/vadimcn.vscode-lldb-1.12.2/bin/lld-link"
+      - "D:/cuda12.6/bin/lld-link.com"
+      - "D:/cuda12.6/bin/lld-link.exe"
+      - "D:/cuda12.6/bin/lld-link"
+      - "D:/cuda12.6/libnvvp/lld-link.com"
+      - "D:/cuda12.6/libnvvp/lld-link.exe"
+      - "D:/cuda12.6/libnvvp/lld-link"
+      - "C:/Anaconda/lld-link.com"
+      - "C:/Anaconda/lld-link.exe"
+      - "C:/Anaconda/lld-link"
+      - "C:/Anaconda/Scripts/lld-link.com"
+      - "C:/Anaconda/Scripts/lld-link.exe"
+      - "C:/Anaconda/Scripts/lld-link"
+      - "C:/Users/lyx/Desktop/Anaconda/lld-link.com"
+      - "C:/Users/lyx/Desktop/Anaconda/lld-link.exe"
+      - "C:/Users/lyx/Desktop/Anaconda/lld-link"
+      - "C:/Users/lyx/Desktop/Anaconda/Scripts/lld-link.com"
+      - "C:/Users/lyx/Desktop/Anaconda/Scripts/lld-link.exe"
+      - "C:/Users/lyx/Desktop/Anaconda/Scripts/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.1.1/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.1.1/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.1.1/lld-link"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
+      - "D:/Git/cmd/lld-link.com"
+      - "D:/Git/cmd/lld-link.exe"
+      - "D:/Git/cmd/lld-link"
+      - "D:/bin/lld-link.com"
+      - "D:/bin/lld-link.exe"
+      - "D:/bin/lld-link"
+      - "C:/Users/lyx/AppData/Local/Temp/c8754357-bb7c-4e6e-8b67-b2d7521cbafb_mingw64.7z.afb/x86_64-8.1.0-release-posix-seh-rt_v6-rev0.7z/mingw64/bin/lld-link.com"
+      - "C:/Users/lyx/AppData/Local/Temp/c8754357-bb7c-4e6e-8b67-b2d7521cbafb_mingw64.7z.afb/x86_64-8.1.0-release-posix-seh-rt_v6-rev0.7z/mingw64/bin/lld-link.exe"
+      - "C:/Users/lyx/AppData/Local/Temp/c8754357-bb7c-4e6e-8b67-b2d7521cbafb_mingw64.7z.afb/x86_64-8.1.0-release-posix-seh-rt_v6-rev0.7z/mingw64/bin/lld-link"
+      - "D:/Trae CN/bin/lld-link.com"
+      - "D:/Trae CN/bin/lld-link.exe"
+      - "D:/Trae CN/bin/lld-link"
+      - "D:/python314/Scripts/lld-link.com"
+      - "D:/python314/Scripts/lld-link.exe"
+      - "D:/python314/Scripts/lld-link"
+      - "D:/python314/lld-link.com"
+      - "D:/python314/lld-link.exe"
+      - "D:/python314/lld-link"
+      - "C:/Users/lyx/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/lyx/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/lyx/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "D:/cursor/resources/app/bin/lld-link.com"
+      - "D:/cursor/resources/app/bin/lld-link.exe"
+      - "D:/cursor/resources/app/bin/lld-link"
+      - "D:/Microsoft VS Code/bin/lld-link.com"
+      - "D:/Microsoft VS Code/bin/lld-link.exe"
+      - "D:/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/lyx/AppData/Local/Temp/3ef0c92c-3156-44ca-84c6-d0544ceb17e1_node-v24.18.0-win-x64 (2).zip.7e1/node-v24.18.0-win-x64.zip/lld-link.com"
+      - "C:/Users/lyx/AppData/Local/Temp/3ef0c92c-3156-44ca-84c6-d0544ceb17e1_node-v24.18.0-win-x64 (2).zip.7e1/node-v24.18.0-win-x64.zip/lld-link.exe"
+      - "C:/Users/lyx/AppData/Local/Temp/3ef0c92c-3156-44ca-84c6-d0544ceb17e1_node-v24.18.0-win-x64 (2).zip.7e1/node-v24.18.0-win-x64.zip/lld-link"
+      - "D:/c_project/graph_experiment/lld-link.com"
+      - "D:/c_project/graph_experiment/lld-link.exe"
+      - "D:/c_project/graph_experiment/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\bin"
+        - "D:\\Anaconda\\condabin"
+        - "c:\\Users\\lyx\\.trae-cn\\extensions\\vadimcn.vscode-lldb-1.12.2\\bin"
+        - "D:\\cuda12.6\\bin"
+        - "D:\\cuda12.6\\libnvvp"
+        - "C:\\Anaconda"
+        - "C:\\Anaconda\\Scripts"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "C:\\Users\\lyx\\Desktop\\Anaconda"
+        - "C:\\Users\\lyx\\Desktop\\Anaconda\\Scripts"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Windows\\system32"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.1.1"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "D:\\Git\\cmd"
+        - "D:\\bin"
+        - "C:\\Users\\lyx\\AppData\\Local\\Temp\\c8754357-bb7c-4e6e-8b67-b2d7521cbafb_mingw64.7z.afb\\x86_64-8.1.0-release-posix-seh-rt_v6-rev0.7z\\mingw64\\bin"
+        - "d:\\Trae CN\\bin"
+        - "D:\\python314\\Scripts"
+        - "D:\\python314"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Scripts"
+        - "C:\\Users\\lyx\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\cursor\\resources\\app\\bin"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\lyx\\AppData\\Local\\Temp\\3ef0c92c-3156-44ca-84c6-d0544ceb17e1_node-v24.18.0-win-x64 (2).zip.7e1\\node-v24.18.0-win-x64.zip"
+        - "."
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "D:/Anaconda/"
+      - "D:/Anaconda/Library/mingw-w64/bin/"
+      - "D:/Anaconda/Library/usr/bin/"
+      - "D:/Anaconda/Library/bin/"
+      - "D:/Anaconda/Scripts/"
+      - "D:/Anaconda/bin/"
+      - "D:/Anaconda/condabin/"
+      - "C:/Users/lyx/.trae-cn/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
+      - "D:/cuda12.6/bin/"
+      - "D:/cuda12.6/libnvvp/"
+      - "C:/Anaconda/"
+      - "C:/Anaconda/Scripts/"
+      - "C:/Users/lyx/Desktop/Anaconda/"
+      - "C:/Users/lyx/Desktop/Anaconda/Scripts/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.1.1/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "D:/Git/cmd/"
+      - "D:/bin/"
+      - "C:/Users/lyx/AppData/Local/Temp/c8754357-bb7c-4e6e-8b67-b2d7521cbafb_mingw64.7z.afb/x86_64-8.1.0-release-posix-seh-rt_v6-rev0.7z/mingw64/bin/"
+      - "D:/Trae CN/bin/"
+      - "D:/python314/Scripts/"
+      - "D:/python314/"
+      - "C:/Users/lyx/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/cursor/resources/app/bin/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Users/lyx/AppData/Local/Temp/3ef0c92c-3156-44ca-84c6-d0544ceb17e1_node-v24.18.0-win-x64 (2).zip.7e1/node-v24.18.0-win-x64.zip/"
+      - "D:/c_project/graph_experiment/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\bin"
+        - "D:\\Anaconda\\condabin"
+        - "c:\\Users\\lyx\\.trae-cn\\extensions\\vadimcn.vscode-lldb-1.12.2\\bin"
+        - "D:\\cuda12.6\\bin"
+        - "D:\\cuda12.6\\libnvvp"
+        - "C:\\Anaconda"
+        - "C:\\Anaconda\\Scripts"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "C:\\Users\\lyx\\Desktop\\Anaconda"
+        - "C:\\Users\\lyx\\Desktop\\Anaconda\\Scripts"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Windows\\system32"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.1.1"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "D:\\Git\\cmd"
+        - "D:\\bin"
+        - "C:\\Users\\lyx\\AppData\\Local\\Temp\\c8754357-bb7c-4e6e-8b67-b2d7521cbafb_mingw64.7z.afb\\x86_64-8.1.0-release-posix-seh-rt_v6-rev0.7z\\mingw64\\bin"
+        - "d:\\Trae CN\\bin"
+        - "D:\\python314\\Scripts"
+        - "D:\\python314"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Scripts"
+        - "C:\\Users\\lyx\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\cursor\\resources\\app\\bin"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\lyx\\AppData\\Local\\Temp\\3ef0c92c-3156-44ca-84c6-d0544ceb17e1_node-v24.18.0-win-x64 (2).zip.7e1\\node-v24.18.0-win-x64.zip"
+        - "."
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "D:/Anaconda/"
+      - "D:/Anaconda/Library/mingw-w64/bin/"
+      - "D:/Anaconda/Library/usr/bin/"
+      - "D:/Anaconda/Library/bin/"
+      - "D:/Anaconda/Scripts/"
+      - "D:/Anaconda/bin/"
+      - "D:/Anaconda/condabin/"
+      - "C:/Users/lyx/.trae-cn/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
+      - "D:/cuda12.6/bin/"
+      - "D:/cuda12.6/libnvvp/"
+      - "C:/Anaconda/"
+      - "C:/Anaconda/Scripts/"
+      - "C:/Users/lyx/Desktop/Anaconda/"
+      - "C:/Users/lyx/Desktop/Anaconda/Scripts/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.1.1/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "D:/Git/cmd/"
+      - "D:/bin/"
+      - "C:/Users/lyx/AppData/Local/Temp/c8754357-bb7c-4e6e-8b67-b2d7521cbafb_mingw64.7z.afb/x86_64-8.1.0-release-posix-seh-rt_v6-rev0.7z/mingw64/bin/"
+      - "D:/Trae CN/bin/"
+      - "D:/python314/Scripts/"
+      - "D:/python314/"
+      - "C:/Users/lyx/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/cursor/resources/app/bin/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Users/lyx/AppData/Local/Temp/3ef0c92c-3156-44ca-84c6-d0544ceb17e1_node-v24.18.0-win-x64 (2).zip.7e1/node-v24.18.0-win-x64.zip/"
+      - "D:/c_project/graph_experiment/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt"
+      - "D:/Anaconda/mt.com"
+      - "D:/Anaconda/mt.exe"
+      - "D:/Anaconda/mt"
+      - "D:/Anaconda/Library/mingw-w64/bin/mt.com"
+      - "D:/Anaconda/Library/mingw-w64/bin/mt.exe"
+      - "D:/Anaconda/Library/mingw-w64/bin/mt"
+      - "D:/Anaconda/Library/usr/bin/mt.com"
+      - "D:/Anaconda/Library/usr/bin/mt.exe"
+      - "D:/Anaconda/Library/usr/bin/mt"
+      - "D:/Anaconda/Library/bin/mt.com"
+      - "D:/Anaconda/Library/bin/mt.exe"
+      - "D:/Anaconda/Library/bin/mt"
+      - "D:/Anaconda/Scripts/mt.com"
+      - "D:/Anaconda/Scripts/mt.exe"
+      - "D:/Anaconda/Scripts/mt"
+      - "D:/Anaconda/bin/mt.com"
+      - "D:/Anaconda/bin/mt.exe"
+      - "D:/Anaconda/bin/mt"
+      - "D:/Anaconda/condabin/mt.com"
+      - "D:/Anaconda/condabin/mt.exe"
+      - "D:/Anaconda/condabin/mt"
+      - "C:/Users/lyx/.trae-cn/extensions/vadimcn.vscode-lldb-1.12.2/bin/mt.com"
+      - "C:/Users/lyx/.trae-cn/extensions/vadimcn.vscode-lldb-1.12.2/bin/mt.exe"
+      - "C:/Users/lyx/.trae-cn/extensions/vadimcn.vscode-lldb-1.12.2/bin/mt"
+      - "D:/cuda12.6/bin/mt.com"
+      - "D:/cuda12.6/bin/mt.exe"
+      - "D:/cuda12.6/bin/mt"
+      - "D:/cuda12.6/libnvvp/mt.com"
+      - "D:/cuda12.6/libnvvp/mt.exe"
+      - "D:/cuda12.6/libnvvp/mt"
+      - "C:/Anaconda/mt.com"
+      - "C:/Anaconda/mt.exe"
+      - "C:/Anaconda/mt"
+      - "C:/Anaconda/Scripts/mt.com"
+      - "C:/Anaconda/Scripts/mt.exe"
+      - "C:/Anaconda/Scripts/mt"
+      - "C:/Users/lyx/Desktop/Anaconda/mt.com"
+      - "C:/Users/lyx/Desktop/Anaconda/mt.exe"
+      - "C:/Users/lyx/Desktop/Anaconda/mt"
+      - "C:/Users/lyx/Desktop/Anaconda/Scripts/mt.com"
+      - "C:/Users/lyx/Desktop/Anaconda/Scripts/mt.exe"
+      - "C:/Users/lyx/Desktop/Anaconda/Scripts/mt"
+      - "C:/Windows/System32/mt.com"
+      - "C:/Windows/System32/mt.exe"
+      - "C:/Windows/System32/mt"
+      - "C:/Windows/mt.com"
+      - "C:/Windows/mt.exe"
+      - "C:/Windows/mt"
+      - "C:/Windows/System32/wbem/mt.com"
+      - "C:/Windows/System32/wbem/mt.exe"
+      - "C:/Windows/System32/wbem/mt"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
+      - "C:/Windows/System32/OpenSSH/mt.com"
+      - "C:/Windows/System32/OpenSSH/mt.exe"
+      - "C:/Windows/System32/OpenSSH/mt"
+      - "C:/Program Files/dotnet/mt.com"
+      - "C:/Program Files/dotnet/mt.exe"
+      - "C:/Program Files/dotnet/mt"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.1.1/mt.com"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.1.1/mt.exe"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.1.1/mt"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt"
+      - "D:/Git/cmd/mt.com"
+      - "D:/Git/cmd/mt.exe"
+      - "D:/Git/cmd/mt"
+      - "D:/bin/mt.com"
+      - "D:/bin/mt.exe"
+      - "D:/bin/mt"
+      - "C:/Users/lyx/AppData/Local/Temp/c8754357-bb7c-4e6e-8b67-b2d7521cbafb_mingw64.7z.afb/x86_64-8.1.0-release-posix-seh-rt_v6-rev0.7z/mingw64/bin/mt.com"
+      - "C:/Users/lyx/AppData/Local/Temp/c8754357-bb7c-4e6e-8b67-b2d7521cbafb_mingw64.7z.afb/x86_64-8.1.0-release-posix-seh-rt_v6-rev0.7z/mingw64/bin/mt.exe"
+      - "C:/Users/lyx/AppData/Local/Temp/c8754357-bb7c-4e6e-8b67-b2d7521cbafb_mingw64.7z.afb/x86_64-8.1.0-release-posix-seh-rt_v6-rev0.7z/mingw64/bin/mt"
+      - "D:/Trae CN/bin/mt.com"
+      - "D:/Trae CN/bin/mt.exe"
+      - "D:/Trae CN/bin/mt"
+      - "D:/python314/Scripts/mt.com"
+      - "D:/python314/Scripts/mt.exe"
+      - "D:/python314/Scripts/mt"
+      - "D:/python314/mt.com"
+      - "D:/python314/mt.exe"
+      - "D:/python314/mt"
+      - "C:/Users/lyx/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/lyx/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/lyx/AppData/Local/Microsoft/WindowsApps/mt"
+      - "D:/cursor/resources/app/bin/mt.com"
+      - "D:/cursor/resources/app/bin/mt.exe"
+      - "D:/cursor/resources/app/bin/mt"
+      - "D:/Microsoft VS Code/bin/mt.com"
+      - "D:/Microsoft VS Code/bin/mt.exe"
+      - "D:/Microsoft VS Code/bin/mt"
+      - "C:/Users/lyx/AppData/Local/Temp/3ef0c92c-3156-44ca-84c6-d0544ceb17e1_node-v24.18.0-win-x64 (2).zip.7e1/node-v24.18.0-win-x64.zip/mt.com"
+      - "C:/Users/lyx/AppData/Local/Temp/3ef0c92c-3156-44ca-84c6-d0544ceb17e1_node-v24.18.0-win-x64 (2).zip.7e1/node-v24.18.0-win-x64.zip/mt.exe"
+      - "C:/Users/lyx/AppData/Local/Temp/3ef0c92c-3156-44ca-84c6-d0544ceb17e1_node-v24.18.0-win-x64 (2).zip.7e1/node-v24.18.0-win-x64.zip/mt"
+      - "D:/c_project/graph_experiment/mt.com"
+      - "D:/c_project/graph_experiment/mt.exe"
+      - "D:/c_project/graph_experiment/mt"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\bin"
+        - "D:\\Anaconda\\condabin"
+        - "c:\\Users\\lyx\\.trae-cn\\extensions\\vadimcn.vscode-lldb-1.12.2\\bin"
+        - "D:\\cuda12.6\\bin"
+        - "D:\\cuda12.6\\libnvvp"
+        - "C:\\Anaconda"
+        - "C:\\Anaconda\\Scripts"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "C:\\Users\\lyx\\Desktop\\Anaconda"
+        - "C:\\Users\\lyx\\Desktop\\Anaconda\\Scripts"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Windows\\system32"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.1.1"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "D:\\Git\\cmd"
+        - "D:\\bin"
+        - "C:\\Users\\lyx\\AppData\\Local\\Temp\\c8754357-bb7c-4e6e-8b67-b2d7521cbafb_mingw64.7z.afb\\x86_64-8.1.0-release-posix-seh-rt_v6-rev0.7z\\mingw64\\bin"
+        - "d:\\Trae CN\\bin"
+        - "D:\\python314\\Scripts"
+        - "D:\\python314"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Scripts"
+        - "C:\\Users\\lyx\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\cursor\\resources\\app\\bin"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\lyx\\AppData\\Local\\Temp\\3ef0c92c-3156-44ca-84c6-d0544ceb17e1_node-v24.18.0-win-x64 (2).zip.7e1\\node-v24.18.0-win-x64.zip"
+        - "."
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "D:/Anaconda/"
+      - "D:/Anaconda/Library/mingw-w64/bin/"
+      - "D:/Anaconda/Library/usr/bin/"
+      - "D:/Anaconda/Library/bin/"
+      - "D:/Anaconda/Scripts/"
+      - "D:/Anaconda/bin/"
+      - "D:/Anaconda/condabin/"
+      - "C:/Users/lyx/.trae-cn/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
+      - "D:/cuda12.6/bin/"
+      - "D:/cuda12.6/libnvvp/"
+      - "C:/Anaconda/"
+      - "C:/Anaconda/Scripts/"
+      - "C:/Users/lyx/Desktop/Anaconda/"
+      - "C:/Users/lyx/Desktop/Anaconda/Scripts/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.1.1/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "D:/Git/cmd/"
+      - "D:/bin/"
+      - "C:/Users/lyx/AppData/Local/Temp/c8754357-bb7c-4e6e-8b67-b2d7521cbafb_mingw64.7z.afb/x86_64-8.1.0-release-posix-seh-rt_v6-rev0.7z/mingw64/bin/"
+      - "D:/Trae CN/bin/"
+      - "D:/python314/Scripts/"
+      - "D:/python314/"
+      - "C:/Users/lyx/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/cursor/resources/app/bin/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Users/lyx/AppData/Local/Temp/3ef0c92c-3156-44ca-84c6-d0544ceb17e1_node-v24.18.0-win-x64 (2).zip.7e1/node-v24.18.0-win-x64.zip/"
+      - "D:/c_project/graph_experiment/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\bin"
+        - "D:\\Anaconda\\condabin"
+        - "c:\\Users\\lyx\\.trae-cn\\extensions\\vadimcn.vscode-lldb-1.12.2\\bin"
+        - "D:\\cuda12.6\\bin"
+        - "D:\\cuda12.6\\libnvvp"
+        - "C:\\Anaconda"
+        - "C:\\Anaconda\\Scripts"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "C:\\Users\\lyx\\Desktop\\Anaconda"
+        - "C:\\Users\\lyx\\Desktop\\Anaconda\\Scripts"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Windows\\system32"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.1.1"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "D:\\Git\\cmd"
+        - "D:\\bin"
+        - "C:\\Users\\lyx\\AppData\\Local\\Temp\\c8754357-bb7c-4e6e-8b67-b2d7521cbafb_mingw64.7z.afb\\x86_64-8.1.0-release-posix-seh-rt_v6-rev0.7z\\mingw64\\bin"
+        - "d:\\Trae CN\\bin"
+        - "D:\\python314\\Scripts"
+        - "D:\\python314"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Scripts"
+        - "C:\\Users\\lyx\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\cursor\\resources\\app\\bin"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\lyx\\AppData\\Local\\Temp\\3ef0c92c-3156-44ca-84c6-d0544ceb17e1_node-v24.18.0-win-x64 (2).zip.7e1\\node-v24.18.0-win-x64.zip"
+        - "."
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "D:/share/cmake-4.2/Modules/"
+    found: "D:/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\bin"
+        - "D:\\Anaconda\\condabin"
+        - "c:\\Users\\lyx\\.trae-cn\\extensions\\vadimcn.vscode-lldb-1.12.2\\bin"
+        - "D:\\cuda12.6\\bin"
+        - "D:\\cuda12.6\\libnvvp"
+        - "C:\\Anaconda"
+        - "C:\\Anaconda\\Scripts"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "C:\\Users\\lyx\\Desktop\\Anaconda"
+        - "C:\\Users\\lyx\\Desktop\\Anaconda\\Scripts"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Windows\\system32"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.1.1"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "D:\\Git\\cmd"
+        - "D:\\bin"
+        - "C:\\Users\\lyx\\AppData\\Local\\Temp\\c8754357-bb7c-4e6e-8b67-b2d7521cbafb_mingw64.7z.afb\\x86_64-8.1.0-release-posix-seh-rt_v6-rev0.7z\\mingw64\\bin"
+        - "d:\\Trae CN\\bin"
+        - "D:\\python314\\Scripts"
+        - "D:\\python314"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Scripts"
+        - "C:\\Users\\lyx\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\cursor\\resources\\app\\bin"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\lyx\\AppData\\Local\\Temp\\3ef0c92c-3156-44ca-84c6-d0544ceb17e1_node-v24.18.0-win-x64 (2).zip.7e1\\node-v24.18.0-win-x64.zip"
+        - "."
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.23+b0019275e
+      鐢熸垚鍚姩鏃堕棿涓?2026/7/9 17:06:28銆?
+      
+      鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\c_project\\graph_experiment\\build\\CMakeFiles\\4.2.0\\CompilerIdCXX\\CompilerIdCXX.vcxproj鈥?榛樿鐩爣)銆?
+      PrepareForBuild:
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\鈥濄€?
+        宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\CompilerIdCXX.tlog\\鈥濄€?
+      InitializeBuildStatus:
+        姝ｅ湪鍒涘缓鈥淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> D:\\c_project\\graph_experiment\\build\\CMakeFiles\\4.2.0\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        姝ｅ湪鍒犻櫎鏂囦欢鈥淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+      宸插畬鎴愮敓鎴愰」鐩€淒:\\c_project\\graph_experiment\\build\\CMakeFiles\\4.2.0\\CompilerIdCXX\\CompilerIdCXX.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+      
+      宸叉垚鍔熺敓鎴愩€?
+          0 涓鍛?
+          0 涓敊璇?
+      
+      宸茬敤鏃堕棿 00:00:01.14
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/c_project/graph_experiment/build/CMakeFiles/4.2.0/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "D:/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "D:/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "D:/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "D:/Anaconda/"
+      - "D:/Anaconda/Library/mingw-w64/bin/"
+      - "D:/Anaconda/Library/usr/bin/"
+      - "D:/Anaconda/Library/bin/"
+      - "D:/Anaconda/Scripts/"
+      - "D:/Anaconda/bin/"
+      - "D:/Anaconda/condabin/"
+      - "C:/Users/lyx/.trae-cn/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
+      - "D:/cuda12.6/bin/"
+      - "D:/cuda12.6/libnvvp/"
+      - "C:/Anaconda/"
+      - "C:/Anaconda/Scripts/"
+      - "C:/Users/lyx/Desktop/Anaconda/"
+      - "C:/Users/lyx/Desktop/Anaconda/Scripts/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.1.1/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "D:/Git/cmd/"
+      - "D:/bin/"
+      - "C:/Users/lyx/AppData/Local/Temp/c8754357-bb7c-4e6e-8b67-b2d7521cbafb_mingw64.7z.afb/x86_64-8.1.0-release-posix-seh-rt_v6-rev0.7z/mingw64/bin/"
+      - "D:/Trae CN/bin/"
+      - "D:/python314/Scripts/"
+      - "D:/python314/"
+      - "C:/Users/lyx/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/cursor/resources/app/bin/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Users/lyx/AppData/Local/Temp/3ef0c92c-3156-44ca-84c6-d0544ceb17e1_node-v24.18.0-win-x64 (2).zip.7e1/node-v24.18.0-win-x64.zip/"
+      - "D:/c_project/graph_experiment/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link"
+      - "D:/Anaconda/lld-link.com"
+      - "D:/Anaconda/lld-link.exe"
+      - "D:/Anaconda/lld-link"
+      - "D:/Anaconda/Library/mingw-w64/bin/lld-link.com"
+      - "D:/Anaconda/Library/mingw-w64/bin/lld-link.exe"
+      - "D:/Anaconda/Library/mingw-w64/bin/lld-link"
+      - "D:/Anaconda/Library/usr/bin/lld-link.com"
+      - "D:/Anaconda/Library/usr/bin/lld-link.exe"
+      - "D:/Anaconda/Library/usr/bin/lld-link"
+      - "D:/Anaconda/Library/bin/lld-link.com"
+      - "D:/Anaconda/Library/bin/lld-link.exe"
+      - "D:/Anaconda/Library/bin/lld-link"
+      - "D:/Anaconda/Scripts/lld-link.com"
+      - "D:/Anaconda/Scripts/lld-link.exe"
+      - "D:/Anaconda/Scripts/lld-link"
+      - "D:/Anaconda/bin/lld-link.com"
+      - "D:/Anaconda/bin/lld-link.exe"
+      - "D:/Anaconda/bin/lld-link"
+      - "D:/Anaconda/condabin/lld-link.com"
+      - "D:/Anaconda/condabin/lld-link.exe"
+      - "D:/Anaconda/condabin/lld-link"
+      - "C:/Users/lyx/.trae-cn/extensions/vadimcn.vscode-lldb-1.12.2/bin/lld-link.com"
+      - "C:/Users/lyx/.trae-cn/extensions/vadimcn.vscode-lldb-1.12.2/bin/lld-link.exe"
+      - "C:/Users/lyx/.trae-cn/extensions/vadimcn.vscode-lldb-1.12.2/bin/lld-link"
+      - "D:/cuda12.6/bin/lld-link.com"
+      - "D:/cuda12.6/bin/lld-link.exe"
+      - "D:/cuda12.6/bin/lld-link"
+      - "D:/cuda12.6/libnvvp/lld-link.com"
+      - "D:/cuda12.6/libnvvp/lld-link.exe"
+      - "D:/cuda12.6/libnvvp/lld-link"
+      - "C:/Anaconda/lld-link.com"
+      - "C:/Anaconda/lld-link.exe"
+      - "C:/Anaconda/lld-link"
+      - "C:/Anaconda/Scripts/lld-link.com"
+      - "C:/Anaconda/Scripts/lld-link.exe"
+      - "C:/Anaconda/Scripts/lld-link"
+      - "C:/Users/lyx/Desktop/Anaconda/lld-link.com"
+      - "C:/Users/lyx/Desktop/Anaconda/lld-link.exe"
+      - "C:/Users/lyx/Desktop/Anaconda/lld-link"
+      - "C:/Users/lyx/Desktop/Anaconda/Scripts/lld-link.com"
+      - "C:/Users/lyx/Desktop/Anaconda/Scripts/lld-link.exe"
+      - "C:/Users/lyx/Desktop/Anaconda/Scripts/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.1.1/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.1.1/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.1.1/lld-link"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
+      - "D:/Git/cmd/lld-link.com"
+      - "D:/Git/cmd/lld-link.exe"
+      - "D:/Git/cmd/lld-link"
+      - "D:/bin/lld-link.com"
+      - "D:/bin/lld-link.exe"
+      - "D:/bin/lld-link"
+      - "C:/Users/lyx/AppData/Local/Temp/c8754357-bb7c-4e6e-8b67-b2d7521cbafb_mingw64.7z.afb/x86_64-8.1.0-release-posix-seh-rt_v6-rev0.7z/mingw64/bin/lld-link.com"
+      - "C:/Users/lyx/AppData/Local/Temp/c8754357-bb7c-4e6e-8b67-b2d7521cbafb_mingw64.7z.afb/x86_64-8.1.0-release-posix-seh-rt_v6-rev0.7z/mingw64/bin/lld-link.exe"
+      - "C:/Users/lyx/AppData/Local/Temp/c8754357-bb7c-4e6e-8b67-b2d7521cbafb_mingw64.7z.afb/x86_64-8.1.0-release-posix-seh-rt_v6-rev0.7z/mingw64/bin/lld-link"
+      - "D:/Trae CN/bin/lld-link.com"
+      - "D:/Trae CN/bin/lld-link.exe"
+      - "D:/Trae CN/bin/lld-link"
+      - "D:/python314/Scripts/lld-link.com"
+      - "D:/python314/Scripts/lld-link.exe"
+      - "D:/python314/Scripts/lld-link"
+      - "D:/python314/lld-link.com"
+      - "D:/python314/lld-link.exe"
+      - "D:/python314/lld-link"
+      - "C:/Users/lyx/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/lyx/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/lyx/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "D:/cursor/resources/app/bin/lld-link.com"
+      - "D:/cursor/resources/app/bin/lld-link.exe"
+      - "D:/cursor/resources/app/bin/lld-link"
+      - "D:/Microsoft VS Code/bin/lld-link.com"
+      - "D:/Microsoft VS Code/bin/lld-link.exe"
+      - "D:/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/lyx/AppData/Local/Temp/3ef0c92c-3156-44ca-84c6-d0544ceb17e1_node-v24.18.0-win-x64 (2).zip.7e1/node-v24.18.0-win-x64.zip/lld-link.com"
+      - "C:/Users/lyx/AppData/Local/Temp/3ef0c92c-3156-44ca-84c6-d0544ceb17e1_node-v24.18.0-win-x64 (2).zip.7e1/node-v24.18.0-win-x64.zip/lld-link.exe"
+      - "C:/Users/lyx/AppData/Local/Temp/3ef0c92c-3156-44ca-84c6-d0544ceb17e1_node-v24.18.0-win-x64 (2).zip.7e1/node-v24.18.0-win-x64.zip/lld-link"
+      - "D:/c_project/graph_experiment/lld-link.com"
+      - "D:/c_project/graph_experiment/lld-link.exe"
+      - "D:/c_project/graph_experiment/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\bin"
+        - "D:\\Anaconda\\condabin"
+        - "c:\\Users\\lyx\\.trae-cn\\extensions\\vadimcn.vscode-lldb-1.12.2\\bin"
+        - "D:\\cuda12.6\\bin"
+        - "D:\\cuda12.6\\libnvvp"
+        - "C:\\Anaconda"
+        - "C:\\Anaconda\\Scripts"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "C:\\Users\\lyx\\Desktop\\Anaconda"
+        - "C:\\Users\\lyx\\Desktop\\Anaconda\\Scripts"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Windows\\system32"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.1.1"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "D:\\Git\\cmd"
+        - "D:\\bin"
+        - "C:\\Users\\lyx\\AppData\\Local\\Temp\\c8754357-bb7c-4e6e-8b67-b2d7521cbafb_mingw64.7z.afb\\x86_64-8.1.0-release-posix-seh-rt_v6-rev0.7z\\mingw64\\bin"
+        - "d:\\Trae CN\\bin"
+        - "D:\\python314\\Scripts"
+        - "D:\\python314"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Scripts"
+        - "C:\\Users\\lyx\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\cursor\\resources\\app\\bin"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\lyx\\AppData\\Local\\Temp\\3ef0c92c-3156-44ca-84c6-d0544ceb17e1_node-v24.18.0-win-x64 (2).zip.7e1\\node-v24.18.0-win-x64.zip"
+        - "."
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/share/cmake-4.2/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "D:/share/cmake-4.2/Modules/Platform/Windows-MSVC.cmake:580 (enable_language)"
+      - "D:/share/cmake-4.2/Modules/Platform/Windows-MSVC.cmake:553 (__windows_compiler_msvc_enable_rc)"
+      - "D:/share/cmake-4.2/Modules/Platform/Windows-MSVC-C.cmake:5 (__windows_compiler_msvc)"
+      - "D:/share/cmake-4.2/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "D:/Anaconda/"
+      - "D:/Anaconda/Library/mingw-w64/bin/"
+      - "D:/Anaconda/Library/usr/bin/"
+      - "D:/Anaconda/Library/bin/"
+      - "D:/Anaconda/Scripts/"
+      - "D:/Anaconda/bin/"
+      - "D:/Anaconda/condabin/"
+      - "C:/Users/lyx/.trae-cn/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
+      - "D:/cuda12.6/bin/"
+      - "D:/cuda12.6/libnvvp/"
+      - "C:/Anaconda/"
+      - "C:/Anaconda/Scripts/"
+      - "C:/Users/lyx/Desktop/Anaconda/"
+      - "C:/Users/lyx/Desktop/Anaconda/Scripts/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.1.1/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "D:/Git/cmd/"
+      - "D:/bin/"
+      - "C:/Users/lyx/AppData/Local/Temp/c8754357-bb7c-4e6e-8b67-b2d7521cbafb_mingw64.7z.afb/x86_64-8.1.0-release-posix-seh-rt_v6-rev0.7z/mingw64/bin/"
+      - "D:/Trae CN/bin/"
+      - "D:/python314/Scripts/"
+      - "D:/python314/"
+      - "C:/Users/lyx/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/cursor/resources/app/bin/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/Users/lyx/AppData/Local/Temp/3ef0c92c-3156-44ca-84c6-d0544ceb17e1_node-v24.18.0-win-x64 (2).zip.7e1/node-v24.18.0-win-x64.zip/"
+      - "D:/c_project/graph_experiment/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "D:/bin/"
+      - "D:/sbin/"
+      - "D:/"
+      - "C:/Program Files (x86)/graphExperiment/bin/"
+      - "C:/Program Files (x86)/graphExperiment/sbin/"
+      - "C:/Program Files (x86)/graphExperiment/"
+    searched_directories:
+      - "D:/Anaconda/rc.com"
+      - "D:/Anaconda/rc.exe"
+      - "D:/Anaconda/rc"
+      - "D:/Anaconda/Library/mingw-w64/bin/rc.com"
+      - "D:/Anaconda/Library/mingw-w64/bin/rc.exe"
+      - "D:/Anaconda/Library/mingw-w64/bin/rc"
+      - "D:/Anaconda/Library/usr/bin/rc.com"
+      - "D:/Anaconda/Library/usr/bin/rc.exe"
+      - "D:/Anaconda/Library/usr/bin/rc"
+      - "D:/Anaconda/Library/bin/rc.com"
+      - "D:/Anaconda/Library/bin/rc.exe"
+      - "D:/Anaconda/Library/bin/rc"
+      - "D:/Anaconda/Scripts/rc.com"
+      - "D:/Anaconda/Scripts/rc.exe"
+      - "D:/Anaconda/Scripts/rc"
+      - "D:/Anaconda/bin/rc.com"
+      - "D:/Anaconda/bin/rc.exe"
+      - "D:/Anaconda/bin/rc"
+      - "D:/Anaconda/condabin/rc.com"
+      - "D:/Anaconda/condabin/rc.exe"
+      - "D:/Anaconda/condabin/rc"
+      - "C:/Users/lyx/.trae-cn/extensions/vadimcn.vscode-lldb-1.12.2/bin/rc.com"
+      - "C:/Users/lyx/.trae-cn/extensions/vadimcn.vscode-lldb-1.12.2/bin/rc.exe"
+      - "C:/Users/lyx/.trae-cn/extensions/vadimcn.vscode-lldb-1.12.2/bin/rc"
+      - "D:/cuda12.6/bin/rc.com"
+      - "D:/cuda12.6/bin/rc.exe"
+      - "D:/cuda12.6/bin/rc"
+      - "D:/cuda12.6/libnvvp/rc.com"
+      - "D:/cuda12.6/libnvvp/rc.exe"
+      - "D:/cuda12.6/libnvvp/rc"
+      - "C:/Anaconda/rc.com"
+      - "C:/Anaconda/rc.exe"
+      - "C:/Anaconda/rc"
+      - "C:/Anaconda/Scripts/rc.com"
+      - "C:/Anaconda/Scripts/rc.exe"
+      - "C:/Anaconda/Scripts/rc"
+      - "C:/Users/lyx/Desktop/Anaconda/rc.com"
+      - "C:/Users/lyx/Desktop/Anaconda/rc.exe"
+      - "C:/Users/lyx/Desktop/Anaconda/rc"
+      - "C:/Users/lyx/Desktop/Anaconda/Scripts/rc.com"
+      - "C:/Users/lyx/Desktop/Anaconda/Scripts/rc.exe"
+      - "C:/Users/lyx/Desktop/Anaconda/Scripts/rc"
+      - "C:/Windows/System32/rc.com"
+      - "C:/Windows/System32/rc.exe"
+      - "C:/Windows/System32/rc"
+      - "C:/Windows/rc.com"
+      - "C:/Windows/rc.exe"
+      - "C:/Windows/rc"
+      - "C:/Windows/System32/wbem/rc.com"
+      - "C:/Windows/System32/wbem/rc.exe"
+      - "C:/Windows/System32/wbem/rc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
+      - "C:/Windows/System32/OpenSSH/rc.com"
+      - "C:/Windows/System32/OpenSSH/rc.exe"
+      - "C:/Windows/System32/OpenSSH/rc"
+      - "C:/Program Files/dotnet/rc.com"
+      - "C:/Program Files/dotnet/rc.exe"
+      - "C:/Program Files/dotnet/rc"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.1.1/rc.com"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.1.1/rc.exe"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.1.1/rc"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc"
+      - "D:/Git/cmd/rc.com"
+      - "D:/Git/cmd/rc.exe"
+      - "D:/Git/cmd/rc"
+      - "D:/bin/rc.com"
+      - "D:/bin/rc.exe"
+      - "D:/bin/rc"
+      - "C:/Users/lyx/AppData/Local/Temp/c8754357-bb7c-4e6e-8b67-b2d7521cbafb_mingw64.7z.afb/x86_64-8.1.0-release-posix-seh-rt_v6-rev0.7z/mingw64/bin/rc.com"
+      - "C:/Users/lyx/AppData/Local/Temp/c8754357-bb7c-4e6e-8b67-b2d7521cbafb_mingw64.7z.afb/x86_64-8.1.0-release-posix-seh-rt_v6-rev0.7z/mingw64/bin/rc.exe"
+      - "C:/Users/lyx/AppData/Local/Temp/c8754357-bb7c-4e6e-8b67-b2d7521cbafb_mingw64.7z.afb/x86_64-8.1.0-release-posix-seh-rt_v6-rev0.7z/mingw64/bin/rc"
+      - "D:/Trae CN/bin/rc.com"
+      - "D:/Trae CN/bin/rc.exe"
+      - "D:/Trae CN/bin/rc"
+      - "D:/python314/Scripts/rc.com"
+      - "D:/python314/Scripts/rc.exe"
+      - "D:/python314/Scripts/rc"
+      - "D:/python314/rc.com"
+      - "D:/python314/rc.exe"
+      - "D:/python314/rc"
+      - "C:/Users/lyx/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/lyx/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/lyx/AppData/Local/Microsoft/WindowsApps/rc"
+      - "D:/cursor/resources/app/bin/rc.com"
+      - "D:/cursor/resources/app/bin/rc.exe"
+      - "D:/cursor/resources/app/bin/rc"
+      - "D:/Microsoft VS Code/bin/rc.com"
+      - "D:/Microsoft VS Code/bin/rc.exe"
+      - "D:/Microsoft VS Code/bin/rc"
+      - "C:/Users/lyx/AppData/Local/Temp/3ef0c92c-3156-44ca-84c6-d0544ceb17e1_node-v24.18.0-win-x64 (2).zip.7e1/node-v24.18.0-win-x64.zip/rc.com"
+      - "C:/Users/lyx/AppData/Local/Temp/3ef0c92c-3156-44ca-84c6-d0544ceb17e1_node-v24.18.0-win-x64 (2).zip.7e1/node-v24.18.0-win-x64.zip/rc.exe"
+      - "C:/Users/lyx/AppData/Local/Temp/3ef0c92c-3156-44ca-84c6-d0544ceb17e1_node-v24.18.0-win-x64 (2).zip.7e1/node-v24.18.0-win-x64.zip/rc"
+      - "D:/c_project/graph_experiment/rc.com"
+      - "D:/c_project/graph_experiment/rc.exe"
+      - "D:/c_project/graph_experiment/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "D:/bin/rc.com"
+      - "D:/bin/rc.exe"
+      - "D:/bin/rc"
+      - "D:/sbin/rc.com"
+      - "D:/sbin/rc.exe"
+      - "D:/sbin/rc"
+      - "D:/rc.com"
+      - "D:/rc.exe"
+      - "D:/rc"
+      - "C:/Program Files (x86)/graphExperiment/bin/rc.com"
+      - "C:/Program Files (x86)/graphExperiment/bin/rc.exe"
+      - "C:/Program Files (x86)/graphExperiment/bin/rc"
+      - "C:/Program Files (x86)/graphExperiment/sbin/rc.com"
+      - "C:/Program Files (x86)/graphExperiment/sbin/rc.exe"
+      - "C:/Program Files (x86)/graphExperiment/sbin/rc"
+      - "C:/Program Files (x86)/graphExperiment/rc.com"
+      - "C:/Program Files (x86)/graphExperiment/rc.exe"
+      - "C:/Program Files (x86)/graphExperiment/rc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\bin"
+        - "D:\\Anaconda\\condabin"
+        - "c:\\Users\\lyx\\.trae-cn\\extensions\\vadimcn.vscode-lldb-1.12.2\\bin"
+        - "D:\\cuda12.6\\bin"
+        - "D:\\cuda12.6\\libnvvp"
+        - "C:\\Anaconda"
+        - "C:\\Anaconda\\Scripts"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "C:\\Users\\lyx\\Desktop\\Anaconda"
+        - "C:\\Users\\lyx\\Desktop\\Anaconda\\Scripts"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Windows\\system32"
+        - "C:\\Program Files\\dotnet"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.1.1"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "D:\\Git\\cmd"
+        - "D:\\bin"
+        - "C:\\Users\\lyx\\AppData\\Local\\Temp\\c8754357-bb7c-4e6e-8b67-b2d7521cbafb_mingw64.7z.afb\\x86_64-8.1.0-release-posix-seh-rt_v6-rev0.7z\\mingw64\\bin"
+        - "d:\\Trae CN\\bin"
+        - "D:\\python314\\Scripts"
+        - "D:\\python314"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Library\\mingw-w64\\bin"
+        - "D:\\Anaconda\\Library\\usr\\bin"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Anaconda\\Scripts"
+        - "C:\\Users\\lyx\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\cursor\\resources\\app\\bin"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\lyx\\AppData\\Local\\Temp\\3ef0c92c-3156-44ca-84c6-d0544ceb17e1_node-v24.18.0-win-x64 (2).zip.7e1\\node-v24.18.0-win-x64.zip"
+        - "."
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/graphExperiment"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/"
+        - "C:/Program Files (x86)/graphExperiment"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "D:/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/c_project/graph_experiment/build/CMakeFiles/CMakeScratch/TryCompile-toy11b"
+      binary: "D:/c_project/graph_experiment/build/CMakeFiles/CMakeScratch/TryCompile-toy11b"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/c_project/graph_experiment/build/CMakeFiles/CMakeScratch/TryCompile-toy11b'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_41a49.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.23+b0019275e
+        鐢熸垚鍚姩鏃堕棿涓?2026/7/9 17:06:30銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\c_project\\graph_experiment\\build\\CMakeFiles\\CMakeScratch\\TryCompile-toy11b\\cmTC_41a49.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\c_project\\graph_experiment\\build\\CMakeFiles\\CMakeScratch\\TryCompile-toy11b\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_41a49.dir\\Debug\\cmTC_41a49.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_41a49.dir\\Debug\\cmTC_41a49.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_41a49.dir\\Debug\\cmTC_41a49.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_41a49.dir\\Debug\\\\" /Fd"cmTC_41a49.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "D:\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.44.35217 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_41a49.dir\\Debug\\\\" /Fd"cmTC_41a49.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "D:\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\c_project\\graph_experiment\\build\\CMakeFiles\\CMakeScratch\\TryCompile-toy11b\\Debug\\cmTC_41a49.exe" /INCREMENTAL /ILK:"cmTC_41a49.dir\\Debug\\cmTC_41a49.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/c_project/graph_experiment/build/CMakeFiles/CMakeScratch/TryCompile-toy11b/Debug/cmTC_41a49.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/c_project/graph_experiment/build/CMakeFiles/CMakeScratch/TryCompile-toy11b/Debug/cmTC_41a49.lib" /MACHINE:X64  /machine:x64 cmTC_41a49.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_41a49.vcxproj -> D:\\c_project\\graph_experiment\\build\\CMakeFiles\\CMakeScratch\\TryCompile-toy11b\\Debug\\cmTC_41a49.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_41a49.dir\\Debug\\cmTC_41a49.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_41a49.dir\\Debug\\cmTC_41a49.tlog\\cmTC_41a49.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\c_project\\graph_experiment\\build\\CMakeFiles\\CMakeScratch\\TryCompile-toy11b\\cmTC_41a49.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.11
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "D:/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "D:/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "D:/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35217.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "D:/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/c_project/graph_experiment/build/CMakeFiles/CMakeScratch/TryCompile-heipi2"
+      binary: "D:/c_project/graph_experiment/build/CMakeFiles/CMakeScratch/TryCompile-heipi2"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/c_project/graph_experiment/build/CMakeFiles/CMakeScratch/TryCompile-heipi2'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a5f23.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.14.23+b0019275e
+        鐢熸垚鍚姩鏃堕棿涓?2026/7/9 17:06:32銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\c_project\\graph_experiment\\build\\CMakeFiles\\CMakeScratch\\TryCompile-heipi2\\cmTC_a5f23.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\c_project\\graph_experiment\\build\\CMakeFiles\\CMakeScratch\\TryCompile-heipi2\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_a5f23.dir\\Debug\\cmTC_a5f23.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_a5f23.dir\\Debug\\cmTC_a5f23.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_a5f23.dir\\Debug\\cmTC_a5f23.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_a5f23.dir\\Debug\\\\" /Fd"cmTC_a5f23.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "D:\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.44.35217 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_a5f23.dir\\Debug\\\\" /Fd"cmTC_a5f23.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "D:\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\c_project\\graph_experiment\\build\\CMakeFiles\\CMakeScratch\\TryCompile-heipi2\\Debug\\cmTC_a5f23.exe" /INCREMENTAL /ILK:"cmTC_a5f23.dir\\Debug\\cmTC_a5f23.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/c_project/graph_experiment/build/CMakeFiles/CMakeScratch/TryCompile-heipi2/Debug/cmTC_a5f23.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/c_project/graph_experiment/build/CMakeFiles/CMakeScratch/TryCompile-heipi2/Debug/cmTC_a5f23.lib" /MACHINE:X64  /machine:x64 cmTC_a5f23.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_a5f23.vcxproj -> D:\\c_project\\graph_experiment\\build\\CMakeFiles\\CMakeScratch\\TryCompile-heipi2\\Debug\\cmTC_a5f23.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_a5f23.dir\\Debug\\cmTC_a5f23.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_a5f23.dir\\Debug\\cmTC_a5f23.tlog\\cmTC_a5f23.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\c_project\\graph_experiment\\build\\CMakeFiles\\CMakeScratch\\TryCompile-heipi2\\cmTC_a5f23.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.10
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "D:/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "D:/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "D:/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35217.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+...
