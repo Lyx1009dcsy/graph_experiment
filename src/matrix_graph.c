@@ -1,5 +1,6 @@
 #include "matrix_graph.h"
 
+<<<<<<< HEAD
 /**
  * @brief 创建一个新的图
  * 
@@ -14,10 +15,15 @@ MatrixGraph* create_graph(void) {
     MatrixGraph* graph = (MatrixGraph*)malloc(sizeof(MatrixGraph));
     
     /* 检查内存分配是否成功 */
+=======
+MatrixGraph* create_graph(void) {
+    MatrixGraph* graph = (MatrixGraph*)malloc(sizeof(MatrixGraph));
+>>>>>>> feature
     if (graph == NULL) {
         printf("内存分配失败！\n");
         return NULL;
     }
+<<<<<<< HEAD
     
     /* 初始化顶点数量为0 */
     graph->vertex_count = 0;
@@ -32,10 +38,20 @@ MatrixGraph* create_graph(void) {
         graph->adjacency[i][i] = 0;
     }
     
+=======
+    graph->vertex_count = 0;
+    for (int i = 0; i < MAX_VERTEX; i++) {
+        for (int j = 0; j < MAX_VERTEX; j++) {
+            graph->adjacency[i][j] = INF;
+        }
+        graph->adjacency[i][i] = 0;
+    }
+>>>>>>> feature
     printf("图创建成功！\n");
     return graph;
 }
 
+<<<<<<< HEAD
 /**
  * @brief 向图中添加一个新景点（顶点）
  * 
@@ -48,16 +64,23 @@ MatrixGraph* create_graph(void) {
  */
 int add_vertex(MatrixGraph* graph, const char* name) {
     /* 参数有效性检查 */
+=======
+int add_vertex(MatrixGraph* graph, const char* name) {
+>>>>>>> feature
     if (graph == NULL) {
         printf("图未初始化！\n");
         return -1;
     }
+<<<<<<< HEAD
     
     /* 检查顶点数量是否达到上限 */
+=======
+>>>>>>> feature
     if (graph->vertex_count >= MAX_VERTEX) {
         printf("顶点数量已达上限(%d)！\n", MAX_VERTEX);
         return -1;
     }
+<<<<<<< HEAD
     
     /* 将景点名称复制到顶点数组中 */
     strncpy(graph->vertices[graph->vertex_count].name, 
@@ -71,10 +94,17 @@ int add_vertex(MatrixGraph* graph, const char* name) {
     int index = graph->vertex_count;
     graph->vertex_count++;
     
+=======
+    strncpy(graph->vertices[graph->vertex_count].name, name, sizeof(graph->vertices[graph->vertex_count].name) - 1);
+    graph->vertices[graph->vertex_count].name[sizeof(graph->vertices[graph->vertex_count].name) - 1] = '\0';
+    int index = graph->vertex_count;
+    graph->vertex_count++;
+>>>>>>> feature
     printf("成功添加景点: %s (编号: %d)\n", name, index);
     return index;
 }
 
+<<<<<<< HEAD
 /**
  * @brief 向图中添加一条路径（边）及其权重
  * 
@@ -89,10 +119,14 @@ int add_vertex(MatrixGraph* graph, const char* name) {
  */
 int add_edge(MatrixGraph* graph, int from, int to, int weight) {
     /* 参数有效性检查 */
+=======
+int add_edge(MatrixGraph* graph, int from, int to, int weight) {
+>>>>>>> feature
     if (graph == NULL) {
         printf("图未初始化！\n");
         return -1;
     }
+<<<<<<< HEAD
     
     /* 检查顶点编号是否在有效范围内 */
     if (from < 0 || from >= graph->vertex_count || 
@@ -102,10 +136,17 @@ int add_edge(MatrixGraph* graph, int from, int to, int weight) {
     }
     
     /* 检查路径权重是否为正整数 */
+=======
+    if (from < 0 || from >= graph->vertex_count || to < 0 || to >= graph->vertex_count) {
+        printf("顶点编号无效！当前顶点数量: %d\n", graph->vertex_count);
+        return -1;
+    }
+>>>>>>> feature
     if (weight <= 0) {
         printf("路径权重必须大于0！\n");
         return -1;
     }
+<<<<<<< HEAD
     
     /* 设置邻接矩阵值（无向图，双向设置） */
     graph->adjacency[from][to] = weight;
@@ -130,20 +171,34 @@ int add_edge(MatrixGraph* graph, int from, int to, int weight) {
  */
 void print_matrix(MatrixGraph* graph) {
     /* 参数有效性检查 */
+=======
+    graph->adjacency[from][to] = weight;
+    graph->adjacency[to][from] = weight;
+    printf("成功添加路径: %s -> %s, 权重: %d\n", graph->vertices[from].name, graph->vertices[to].name, weight);
+    return 0;
+}
+
+void print_matrix(MatrixGraph* graph) {
+>>>>>>> feature
     if (graph == NULL) {
         printf("图未初始化！\n");
         return;
     }
+<<<<<<< HEAD
     
     /* 输出矩阵标题 */
     printf("\n邻接矩阵:\n");
     
     /* 输出列标题（景点名称） */
+=======
+    printf("\n邻接矩阵:\n");
+>>>>>>> feature
     printf("    ");
     for (int i = 0; i < graph->vertex_count; i++) {
         printf("%-10s", graph->vertices[i].name);
     }
     printf("\n");
+<<<<<<< HEAD
     
     /* 输出矩阵内容 */
     for (int i = 0; i < graph->vertex_count; i++) {
@@ -157,6 +212,14 @@ void print_matrix(MatrixGraph* graph) {
                 printf("%-10s", "INF");
             } else {
                 /* 有路径时输出权重值 */
+=======
+    for (int i = 0; i < graph->vertex_count; i++) {
+        printf("%-10s", graph->vertices[i].name);
+        for (int j = 0; j < graph->vertex_count; j++) {
+            if (graph->adjacency[i][j] == INF) {
+                printf("%-10s", "INF");
+            } else {
+>>>>>>> feature
                 printf("%-10d", graph->adjacency[i][j]);
             }
         }
@@ -164,6 +227,7 @@ void print_matrix(MatrixGraph* graph) {
     }
 }
 
+<<<<<<< HEAD
 /**
  * @brief 展示图中所有景点及其编号
  * 
@@ -173,10 +237,14 @@ void print_matrix(MatrixGraph* graph) {
  */
 void show_all_vertices(MatrixGraph* graph) {
     /* 参数有效性检查 */
+=======
+void show_all_vertices(MatrixGraph* graph) {
+>>>>>>> feature
     if (graph == NULL) {
         printf("图未初始化！\n");
         return;
     }
+<<<<<<< HEAD
     
     /* 输出标题 */
     printf("\n所有景点列表:\n");
@@ -187,11 +255,18 @@ void show_all_vertices(MatrixGraph* graph) {
     }
     
     /* 若没有景点，输出提示信息 */
+=======
+    printf("\n所有景点列表:\n");
+    for (int i = 0; i < graph->vertex_count; i++) {
+        printf("  [%d] %s\n", i, graph->vertices[i].name);
+    }
+>>>>>>> feature
     if (graph->vertex_count == 0) {
         printf("  (暂无景点，请先添加景点)\n");
     }
 }
 
+<<<<<<< HEAD
 /**
  * @brief 释放图占用的内存
  * 
@@ -199,6 +274,8 @@ void show_all_vertices(MatrixGraph* graph) {
  * 
  * @param graph 图指针
  */
+=======
+>>>>>>> feature
 void free_graph(MatrixGraph* graph) {
     if (graph != NULL) {
         free(graph);

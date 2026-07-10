@@ -1,21 +1,27 @@
 #include "matrix_graph.h"
 #include <windows.h>
 
+<<<<<<< HEAD
 /**
  * @brief 清空输入缓冲区
  * 
  * 清除 scanf 或 fgets 后留在缓冲区中的多余字符，
  * 防止后续输入操作读取到错误的数据。
  */
+=======
+>>>>>>> feature
 void clear_input_buffer(void) {
     while (getchar() != '\n');
 }
 
+<<<<<<< HEAD
 /**
  * @brief 打印系统主菜单
  * 
  * 显示景区路径规划系统的所有功能选项，供用户选择操作。
  */
+=======
+>>>>>>> feature
 void print_menu(void) {
     printf("\n=================== 景区路径规划系统 ===================\n");
     printf("                    基于邻接矩阵实现\n");
@@ -30,6 +36,7 @@ void print_menu(void) {
     printf("请输入您的选择 (1-6): ");
 }
 
+<<<<<<< HEAD
 /**
  * @brief 主函数
  * 
@@ -42,6 +49,11 @@ void print_menu(void) {
 int main(void) {
     MatrixGraph* graph = NULL;  /* 图指针，初始化为NULL */
     int choice = 0;             /* 用户选择的菜单选项 */
+=======
+int main(void) {
+    MatrixGraph* graph = NULL;
+    int choice = 0;
+>>>>>>> feature
     
     SetConsoleOutputCP(CP_UTF8);
     SetConsoleCP(CP_UTF8);
@@ -49,6 +61,7 @@ int main(void) {
     printf("欢迎使用景区路径规划系统！\n");
     printf("请先创建图，然后进行其他操作。\n");
     
+<<<<<<< HEAD
     /* 主循环，直到用户选择退出 */
     while (choice != 6) {
         print_menu();
@@ -65,6 +78,20 @@ int main(void) {
         switch (choice) {
             case 1: {
                 /* 创建图 */
+=======
+    while (choice != 6) {
+        print_menu();
+        
+        if (scanf("%d", &choice) != 1) {
+            printf("输入无效，请输入数字！\n");
+            clear_input_buffer();
+            continue;
+        }
+        clear_input_buffer();
+        
+        switch (choice) {
+            case 1: {
+>>>>>>> feature
                 if (graph != NULL) {
                     printf("图已存在，是否重新创建？(y/n): ");
                     char confirm;
@@ -80,7 +107,10 @@ int main(void) {
                 break;
             }
             case 2: {
+<<<<<<< HEAD
                 /* 添加景点 */
+=======
+>>>>>>> feature
                 if (graph == NULL) {
                     printf("请先创建图！\n");
                     break;
@@ -88,9 +118,13 @@ int main(void) {
                 char name[50];
                 printf("请输入景点名称: ");
                 fgets(name, sizeof(name), stdin);
+<<<<<<< HEAD
                 /* 移除末尾的换行符 */
                 name[strcspn(name, "\n")] = '\0';
                 /* 检查名称是否为空 */
+=======
+                name[strcspn(name, "\n")] = '\0';
+>>>>>>> feature
                 if (strlen(name) == 0) {
                     printf("景点名称不能为空！\n");
                     break;
@@ -99,7 +133,10 @@ int main(void) {
                 break;
             }
             case 3: {
+<<<<<<< HEAD
                 /* 添加路径权重 */
+=======
+>>>>>>> feature
                 if (graph == NULL) {
                     printf("请先创建图！\n");
                     break;
@@ -108,12 +145,18 @@ int main(void) {
                     printf("请先添加至少2个景点！\n");
                     break;
                 }
+<<<<<<< HEAD
                 /* 显示所有景点供用户选择 */
+=======
+>>>>>>> feature
                 show_all_vertices(graph);
                 
                 int from, to, weight;
                 
+<<<<<<< HEAD
                 /* 读取起点编号 */
+=======
+>>>>>>> feature
                 printf("\n请输入起点编号: ");
                 if (scanf("%d", &from) != 1) {
                     printf("输入无效，请输入数字！\n");
@@ -121,7 +164,10 @@ int main(void) {
                     break;
                 }
                 
+<<<<<<< HEAD
                 /* 读取终点编号 */
+=======
+>>>>>>> feature
                 printf("请输入终点编号: ");
                 if (scanf("%d", &to) != 1) {
                     printf("输入无效，请输入数字！\n");
@@ -129,7 +175,10 @@ int main(void) {
                     break;
                 }
                 
+<<<<<<< HEAD
                 /* 读取路径权重 */
+=======
+>>>>>>> feature
                 printf("请输入路径权重(正整数): ");
                 if (scanf("%d", &weight) != 1) {
                     printf("输入无效，请输入数字！\n");
@@ -138,12 +187,18 @@ int main(void) {
                 }
                 clear_input_buffer();
                 
+<<<<<<< HEAD
                 /* 添加路径 */
+=======
+>>>>>>> feature
                 add_edge(graph, from, to, weight);
                 break;
             }
             case 4: {
+<<<<<<< HEAD
                 /* 打印邻接矩阵 */
+=======
+>>>>>>> feature
                 if (graph == NULL) {
                     printf("请先创建图！\n");
                     break;
@@ -152,7 +207,10 @@ int main(void) {
                 break;
             }
             case 5: {
+<<<<<<< HEAD
                 /* 展示全部景点 */
+=======
+>>>>>>> feature
                 if (graph == NULL) {
                     printf("请先创建图！\n");
                     break;
@@ -161,7 +219,10 @@ int main(void) {
                 break;
             }
             case 6: {
+<<<<<<< HEAD
                 /* 退出系统 */
+=======
+>>>>>>> feature
                 printf("感谢使用景区路径规划系统！\n");
                 if (graph != NULL) {
                     free_graph(graph);
@@ -169,13 +230,19 @@ int main(void) {
                 break;
             }
             default: {
+<<<<<<< HEAD
                 /* 无效选择 */
+=======
+>>>>>>> feature
                 printf("无效的选择，请输入1-6之间的数字！\n");
                 break;
             }
         }
         
+<<<<<<< HEAD
         /* 退出前暂停，让用户查看结果 */
+=======
+>>>>>>> feature
         if (choice != 6) {
             printf("\n按任意键继续...");
             getchar();
