@@ -1,6 +1,9 @@
 # ninja log v7
 28	716	8052868921320798	CMakeFiles/scenic_route_planning.dir/src/matrix_graph.c.obj	ca60496737e957ed
-6	814	8052868921090923	CMakeFiles/scenic_route_planning.dir/src/main.c.obj	b3747841568f134c
-815	1991	8052868929167152	bin/scenic_route_planning.exe	14f9f5ec7bfe17ea
 46	8570	8052876928936646	CMakeFiles/scenic_route_planning.dir/src/main.c.obj	b3747841568f134c
 8578	9829	8052877014260879	bin/scenic_route_planning.exe	14f9f5ec7bfe17ea
+19	2939	8053530742142031	build.ninja	236c30d3caebd5e9
+19	2939	8053530742142031	C:/Users/hp/Desktop/graph_experiment/graph_experiment/build/cmake_install.cmake	236c30d3caebd5e9
+48	1538	8053531408946248	CMakeFiles/scenic_route_planning.dir/src/matrix_graph.c.obj	ca60496737e957ed
+7	3093	8053531408527522	CMakeFiles/scenic_route_planning.dir/src/main.c.obj	b3747841568f134c
+3140	6052	8053531439859633	bin/scenic_route_planning.exe	14f9f5ec7bfe17ea
